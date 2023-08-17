@@ -1,0 +1,46 @@
+server:
+  port: 8078
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/hungli
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+
+#    # 邮件配置
+#  mail:
+#      # 邮件服务器地址
+#    host: smtp.163.com
+#      # 协议
+#    protocol: smtp
+#      # 编码格式
+#    default-encoding: utf-8
+#      # 授权码（在邮箱开通服务时获取）
+#    password: MFIJTQNJGOFNTQTA
+#      # 发送者邮箱地址
+#    username: w772831@163.com
+#      # 端口（不同邮箱端口号不同）
+#    port: 25
+#
+#    # rabbitmq配置
+#  rabbitmq:
+#      # 用户名
+#    username: guest
+#      # 密码
+#    password: guest
+#      # 服务器地址
+#    host: 192.168.200.128
+#      # 端口
+#    port: 5672
+#    listener:
+#       simple:12
+#          #开启手动确认
+#         acknowledge-mode: manual
+
+
+  main:
+    allow-circular-references: true
+
+
+ #mybatis-plus
